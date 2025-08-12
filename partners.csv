@@ -1,45 +1,12 @@
+
 HealthyCloud,D5.4 A study of existing site security policies for sensitive data and protocols for responding to breaches Version 0.3,https://doi.org/10.5281/zenodo.10225422,"CSC, IACS, BIH-Charité, EMBL, TMF, EGI"
 HealthyCloud,D6.1 Expected users’ interactions,https://doi.org/10.5281/zenodo.7949977,"BSC, SAS, LUMC, ECRIN, UB, BBMRI-ERIC, UNILU"
-HealthyCloud,D6.2 Specifications for the FAIR data portal Version 1.0,https://doi.org/10.5281/zenodo.10149558,UNILU
-HealthyCloud,D6.2 Specifications for the FAIR data portal Version 1.0,https://doi.org/10.5281/zenodo.10149558,BSC
-HealthyCloud,D6.2 Specifications for the FAIR data portal Version 1.0,https://doi.org/10.5281/zenodo.10149558,BBMRI-ERIC
-HealthyCloud,D6.2 Specifications for the FAIR data portal Version 1.0,https://doi.org/10.5281/zenodo.10149558,LUMC
-HealthyCloud,D6.2 Specifications for the FAIR data portal Version 1.0,https://doi.org/10.5281/zenodo.10149558,SAS
-HealthyCloud,D6.2 Specifications for the FAIR data portal Version 1.0,https://doi.org/10.5281/zenodo.10149558,SCIENSANO
-HealthyCloud,D6.2 Specifications for the FAIR data portal Version 1.0,https://doi.org/10.5281/zenodo.10149558,IACS
-HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,BBMRI
-HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,SAS
-HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,ECRIN
-HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,UNILU
-HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,EuroBioImaging/IBB-CNR
-HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,CSC
-HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,IACS
-HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,BSC
-HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,LUMC
+HealthyCloud,D6.2 Specifications for the FAIR data portal Version 1.0,https://doi.org/10.5281/zenodo.10149558,"UNILU, BSC, BBMRI-ERIC, LUMC, SAS, SCIENSANO, IACS"
+HealthyCloud,D6.3 Specifications for data access,https://doi.org/10.5281/zenodo.10149597,"BBMRI, SAS, ECRIN, UNILU, EuroBioImaging/IBB-CNR, CSC, IACS, BSC, LUMC"
 Beyond 1 Million Genomes (B1MG),D4.1 - Secure cross-border data access roadmap - 1v0,https://doi.org/10.5281/zenodo.4889401,CSC
-Beyond 1 Million Genomes (B1MG),D4.2 Secure data access demonstrator,https://doi.org/10.5281/zenodo.7590822,CSC
-Beyond 1 Million Genomes (B1MG),D4.2 Secure data access demonstrator,https://doi.org/10.5281/zenodo.7590822,Unilu
-Beyond 1 Million Genomes (B1MG),D4.2 Secure data access demonstrator,https://doi.org/10.5281/zenodo.7590822,Embl-ebi
-Beyond 1 Million Genomes (B1MG),D4.2 Secure data access demonstrator,https://doi.org/10.5281/zenodo.7590822,Uu
-Beyond 1 Million Genomes (B1MG),D4.2 Secure data access demonstrator,https://doi.org/10.5281/zenodo.7590822,Cnag-crg
-Beyond 1 Million Genomes (B1MG),D4.2 Secure data access demonstrator,https://doi.org/10.5281/zenodo.7590822,Vumc
+Beyond 1 Million Genomes (B1MG),D4.2 Secure data access demonstrator,https://doi.org/10.5281/zenodo.7590822,"CSC, Unilu, Embl-ebi, Uu, Cnag-crg, Vumc"
 Beyond 1 Million Genomes (B1MG),D4.3 Secure cross-border data access roadmap - 2v0,https://doi.org/10.5281/zenodo.10046982,CSC
-EOSC-Life,D5.1 Access and user management system for life science - The blueprint,https://doi.org/10.5281/zenodo.3386307,MU
-EOSC-Life,D5.1 Access and user management system for life science - The blueprint,https://doi.org/10.5281/zenodo.3386307,INSTRUCT
-EOSC-Life,D5.1 Access and user management system for life science - The blueprint,https://doi.org/10.5281/zenodo.3386307,ABO
-EOSC-Life,D5.1 Access and user management system for life science - The blueprint,https://doi.org/10.5281/zenodo.3386307,USMI
-EOSC-Life,D5.1 Access and user management system for life science - The blueprint,https://doi.org/10.5281/zenodo.3386307,BBMRI
-EOSC-Life,D5.1 Access and user management system for life science - The blueprint,https://doi.org/10.5281/zenodo.3386307,INFRAFRONTIER
-EOSC-Life,D5.2 Access and User Management System for Life Science – the implementation and usage report,https://doi.org/10.5281/zenodo.4559400,BBMRI
-EOSC-Life,D5.2 Access and User Management System for Life Science – the implementation and usage report,https://doi.org/10.5281/zenodo.4559400,INFRAFRONTIER
-EOSC-Life,D5.2 Access and User Management System for Life Science – the implementation and usage report,https://doi.org/10.5281/zenodo.4559400,INSTRUCT
-EOSC-Life,D5.2 Access and User Management System for Life Science – the implementation and usage report,https://doi.org/10.5281/zenodo.4559400,ABO
-EOSC-Life,D5.2 Access and User Management System for Life Science – the implementation and usage report,https://doi.org/10.5281/zenodo.4559400,USMI
-EOSC-Life,D5.3 Access and User Management System for Life Science – the blueprint 1st update,https://doi.org/10.5281/zenodo.4633191,MU
-EOSC-Life,D5.3 Access and User Management System for Life Science – the blueprint 1st update,https://doi.org/10.5281/zenodo.4633191,INSTRUCT
-EOSC-Life,D5.3 Access and User Management System for Life Science – the blueprint 1st update,https://doi.org/10.5281/zenodo.4633191,BBMRI
-EOSC-Life,D5.3 Access and User Management System for Life Science – the blueprint 1st update,https://doi.org/10.5281/zenodo.4633191,INFRAFRONTIER
-EOSC-Life,D5.3 Access and User Management System for Life Science – the blueprint 1st update,https://doi.org/10.5281/zenodo.4633191,ABO
-EOSC-Life,D5.3 Access and User Management System for Life Science – the blueprint 1st update,https://doi.org/10.5281/zenodo.4633191,USMI
-EOSC-Life,D5.3 Access and User Management System for Life Science – the blueprint 1st update,https://doi.org/10.5281/zenodo.4633191,CSC
+EOSC-Life,D5.1 Access and user management system for life science - The blueprint,https://doi.org/10.5281/zenodo.3386307,"MU, INSTRUCT, ABO, USMI, BBMRI, INFRAFRONTIER"
+EOSC-Life,D5.2 Access and User Management System for Life Science – the implementation and usage report,https://doi.org/10.5281/zenodo.4559400,"BBMRI, INFRAFRONTIER, INSTRUCT, ABO, USMI"
+EOSC-Life,D5.3 Access and User Management System for Life Science – the blueprint 1st update,https://doi.org/10.5281/zenodo.4633191,"MU, INSTRUCT, BBMRI, INFRAFRONTIER, ABO, USMI, CSC"
 EOSC-Life,D5.4 Access and User Management System for Life Science – the blueprint update,https://doi.org/10.5281/zenodo.6782892,"BBMRI, INFRAFRONTIER, Instruct, ABO, USMI, MU, CSC"

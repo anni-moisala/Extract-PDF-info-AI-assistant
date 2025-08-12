@@ -9,7 +9,6 @@ from PIL import Image
 processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct")
 model = AutoModelForVision2Seq.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct").to("cuda" if torch.cuda.is_available() else "cpu")
 
-
 def send_to_ai(project, deliverable, doi, pdf):
     # Load PDF and get first page as image
     doc = fitz.open(stream=pdf, filetype="pdf")
@@ -41,22 +40,16 @@ def send_to_ai(project, deliverable, doi, pdf):
     outputs = model.generate(**inputs, max_new_tokens=100)
     answer = processor.decode(outputs[0][inputs["input_ids"].shape[-1]:], skip_special_tokens=True)
 
-    print("Answer:", answer)
+    # Split lines, remove empty ones, strip whitespace
+    partners_list = [line.strip() for line in answer.splitlines() if line.strip()]
 
-    lines = answer.splitlines()
-
-    # Remove "Answer:" prefix and strip spaces from first line
-    lines[0] = lines[0].replace("Answer:", "").strip()
-
-    # Filter out any empty lines just in case
-    partners = [line for line in lines if line]
+    # Join partners into a single comma-separated string
+    partners_str = ", ".join(partners_list)
 
     import csv
 
     with open("partners.csv", mode="a", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
-        # Write each partner as a row
-        for partner in partners:
-            writer.writerow([project, deliverable, doi, partner])
-    print("partners saved as csv.")
+        writer.writerow([project, deliverable, doi, partners_str])
 
+    print("partners saved as csv.")
